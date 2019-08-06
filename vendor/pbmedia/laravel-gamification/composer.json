@@ -1,0 +1,44 @@
+{
+    "name": "pbmedia/laravel-gamification",
+    "type": "library",
+    "description": "Gamification for Laravel 5",
+    "keywords": [
+        "pbmedia",
+        "laravel-gamification"
+    ],
+    "homepage": "https://github.com/pbmedia/laravel-gamification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal Baljet",
+            "email": "info@pascalbaljetmedia.com",
+            "homepage": "https://www.pascalbaljetmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "orchestra/testbench": "^3.2",
+        "mockery/mockery": "^0.9.4",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pbmedia\\Gamification\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pbmedia\\Gamification\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
